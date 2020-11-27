@@ -1,0 +1,14 @@
+<library path="lib/libsocial_layers">
+  <class type="social_layers::SocialLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses social information to change the costmap</description>
+  </class>
+  <!-- <class type="social_layers::PeopleLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses people information to change the costmap</description>
+  </class>
+  <class type="social_layers::ObjectsLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses objects information to change the costmap</description>
+  </class> -->
+  <!-- <class type="social_layers::InteractionLayer" base_class_type="costmap_2d::Layer">
+    <description>Uses interaction information to change the costmap</description>
+  </class> -->
+</library>
