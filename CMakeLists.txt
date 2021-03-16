@@ -17,6 +17,7 @@ generate_dynamic_reconfigure_options(
   # cfg/PeopleLayer.cfg
   # cfg/ObjectsLayer.cfg
   # cfg/InteractionLayer.cfg
+  # cfg/GroupsLayer.cfg
 )
 
 catkin_package(
@@ -41,6 +42,7 @@ add_library(social_layers
             # src/people_layer.cpp
             # src/objects_layer.cpp
             # src/interaction_layer.cpp
+            # src/groups_layer.cpp
 )
 add_dependencies(social_layers ${${PROJECT_NAME}_EXPORTED_TARGETS} ${catkin_EXPORTED_TARGETS})
 target_link_libraries(
